@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(120deg, rgba(23, 241, 146, 0.575),rgba(235, 121, 22, 0.488));
+}
+.chat-container .input-group{
+   margin-left: 550px;
+   width: 380px;
+   max-width: 600px;
+   border-style:double;
+   border-width: 4px;
+   border-color: rgb(236, 91, 219);
+   padding:15px;
+   border-radius: 20px;
+}
+
+.chat-container .sendbutton{
+   color:#fff;
+   background: rgb(242, 32, 116);
+   font-size: 18px;
+   border-radius:10px;
+   border: none;
+   padding: 5px;
+   margin-left:95px;
+   margin-top:10px;
+   width:150px;
+}
+.chat-container .sendbutton:hover{
+   text-decoration: none;
+   background: #eb0606;
+}
+
+.input-group {
+   margin-top: 20px;
+ }
+.chat-container input{
+      border: blue;
+      border-style: solid;
+      border-radius: 10px;
+      height:20px;
+      width: 300px;
+      margin:10px;
+}
+.chat-container textarea{
+   border: blue;
+   border-style: solid;
+   border-radius: 10px;
+   width: 300px;
+   margin-left:10px;
+}
+.chat-container label{
+   font-size: 20px;
+   color: rgb(244, 107, 185);
+}
+.message-card{
+   background:rgb(226, 152, 234);
+   color:#fff;
+   max-width: 300px;
+   padding:10px;
+   margin: 15px;
+   border-radius: 15px;
+}
+.message-card strong{
+   color:rgb(52, 8, 230);
+}
+.messagecontainer{
+   display: flex;
+   max-width: 1000px;
+   margin-left: 80px;
+   margin-top: 50px;
+}
+.message-card button{
+   background:transparent;
+   border-style:solid;
+   border-color:#fbef09;
+   color:#fbef09;
+   border-radius: 5px;
+   width: 80px;
+   font-size: 15px;
+   font-weight: 300;
+   margin-right:0;
+   margin-top: 10px;
+   margin-left: 30px;
+}
+
+.message-card button:hover{
+   background:#fbef09;
+   color:#f8090d;
+   text-decoration: none;
+}
+h1{
+   margin-left:600px;
+}
+.savebutton
+{
+   color:#fff;
+   background: #ee4c6f;
+   margin:12px;
+   padding:5px;
+   width:80px;
+   border-radius: 5px;
+}
+.savebutton:hover
+{
+text-decoration: none;
+background: #ed0b0b;
+}
+@media screen{
+   body{
+     margin:0;
+     padding:0;
+   };
+  .chat-container.input-group
+  {
+    display: block;
+    margin: 0;
+  }
+  .message-card
+  {
+   display: block;
+  }
+}
